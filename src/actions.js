@@ -6,16 +6,15 @@ export const FETCH_LOADING = "FETCH_LOADING";
 export const FETCH_ERROR = "FETCH_ERROR";
 
 export const getFavsFromLocalStorage = () => {
-  return { type: GET_FAVS_FROM_LS }
-}
+  return { type: GET_FAVS_FROM_LS };
+};
 
 export const addFav = (info) => {
-  return { type: FAV_ADD, payload: info }
-}
+  return { type: FAV_ADD, payload: info };
+};
 
 export const removeFav = (id) => {
-  return { type: FAV_REMOVE, payload: id }
-}
+  return { type: FAV_REMOVE, payload: id };
+};
 
-export const fetchAnother = () => dispatch => {
-}
+export const fetchAnother = () => (dispatch) => {};
